@@ -22,7 +22,7 @@
           android:resource="@xml/provider_paths"/>
     </provider>
 
-    <activity android:name=".MainActivity">
+    <activity android:name="com.lsw.demo.photolayout.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
 
@@ -30,10 +30,10 @@
       </intent-filter>
     </activity>
     <activity
-        android:name=".ProcessActivity"
+        android:name="com.lsw.demo.photolayout.ProcessActivity"
         android:label="@string/title_activity_process"
         android:theme="@style/AppTheme"/>
-    <activity android:name=".PlaygroundActivity">
+    <activity android:name="com.lsw.demo.photolayout.PlaygroundActivity">
 
     </activity>
   </application>
